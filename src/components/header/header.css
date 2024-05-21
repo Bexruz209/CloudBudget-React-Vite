@@ -48,8 +48,9 @@
     font-size: 14px;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 0rem;
+    /* margin-bottom: 0rem; */
     cursor: pointer;
+    margin-bottom: 5px;
     transition: .5s;
 }
 

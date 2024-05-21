@@ -1,0 +1,90 @@
+.all_NavBar {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 190px;
+}
+
+.nav_UL {
+    display: flex;
+    gap: 30px;
+}
+
+.nav_BTN {
+    font-family: serif;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    background: transparent;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.nav_BTN:hover{
+    transition: .5s;
+    background: #fff;
+    color: #ED4C5C;
+}
+
+.nav_LI {
+    font-family: serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.nav_LI:hover {
+    border-bottom: 1px solid #fff;
+    transition: .5s;
+}
+
+
+.header_box {
+    text-align: center;
+}
+
+.header_H1 {
+    font-family: serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 45px;
+}
+
+.header_P {
+    font-family: serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 95px;
+}
+
+.header_BTN {
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+    background: #fff;
+    border: none;
+    color: #ED4C5C;
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 100px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.header_BTN:hover{
+    transition: .5s;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    background: url(../src/assets/Header.img/Bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    width: 1200px;
+    margin: auto;
+}

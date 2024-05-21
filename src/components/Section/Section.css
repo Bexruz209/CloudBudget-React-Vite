@@ -1,0 +1,42 @@
+.tech{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tech_h1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-style: 36px;
+    color: #000000;
+}
+
+.tech_p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    color: #000000;
+    margin-top: 50px;
+    font-family: var(--font-family);
+}
+
+.tech__p {
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-style: 14px;
+    color: #ED4C5C;
+}
+
+.tech_img_big{
+    position: relative;
+}
+
+.tech_img_big_smoll{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: translateX(-50%);
+    /* transform: translateY(-50%); */
+}

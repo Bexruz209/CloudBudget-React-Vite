@@ -1,15 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-:root{
-    --font-family: "Lato", sans-serif;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    box-sizing: border-box;
-}
-
 .all_NavBar {
     padding-top: 50px;
     display: flex;
@@ -20,11 +8,12 @@
 
 .nav_UL {
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 
 .nav_BTN {
-    font-family: serif;
+    font-family: var(--font-family);
     font-size: 14px;
     text-align: center;
     color: #fff;
@@ -48,9 +37,7 @@
     font-size: 14px;
     font-weight: 700;
     color: #fff;
-    /* margin-bottom: 0rem; */
     cursor: pointer;
-    margin-bottom: 5px;
     transition: .5s;
 }
 
@@ -87,7 +74,7 @@
     background: #fff;
     border: none;
     color: #ED4C5C;
-    font-family: serif;
+    font-family: var(--font-family);
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 100px;

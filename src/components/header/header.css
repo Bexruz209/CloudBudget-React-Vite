@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+:root{
+    --font-family: "Lato", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
 .all_NavBar {
     padding-top: 50px;
     display: flex;
@@ -32,7 +44,7 @@
 }
 
 .nav_LI {
-    font-family: serif;
+    font-family: var(--font-family);
     font-size: 14px;
     font-weight: 700;
     color: #fff;
@@ -52,7 +64,7 @@
 }
 
 .header_H1 {
-    font-family: serif;
+    font-family: var(--font-family);
     font-size: 72px;
     font-weight: 700;
     color: #fff;
@@ -60,7 +72,7 @@
 }
 
 .header_P {
-    font-family: serif;
+    font-family: var(--font-family);
     font-size: 24px;
     font-weight: 600;
     color: #fff;

@@ -1,3 +1,4 @@
+import Main from "./components/Main/Main.jsx";
 import Section from "./components/Section/Section.jsx";
 import Header from "./components/header/header.jsx";
 
@@ -13,6 +14,7 @@ export default function App() {
       <div className="Container">
           <Section />
       </div>
+      <Main/>
     </>
   )
 }

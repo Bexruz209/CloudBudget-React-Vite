@@ -15,6 +15,11 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+.Container{
+    width: 1120px;
+    margin: auto;
+}
 .header{
     width: 1200px;
     margin: auto;

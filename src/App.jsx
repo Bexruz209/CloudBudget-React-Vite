@@ -11,10 +11,10 @@ export default function App() {
           <Header />
         </div>
       </div>
+      <Section />
       <div className="Container">
-          <Section />
       </div>
-      <Main/>
+      <Main />
     </>
   )
 }

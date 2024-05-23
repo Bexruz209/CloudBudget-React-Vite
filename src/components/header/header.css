@@ -26,7 +26,7 @@
     transition: .5s;
 }
 
-.nav_BTN:hover{
+.nav_BTN:hover {
     transition: .5s;
     background: #fff;
     color: #ED4C5C;
@@ -82,7 +82,7 @@
     cursor: pointer;
 }
 
-.header_BTN:hover{
+.header_BTN:hover {
     transition: .5s;
     background: transparent;
     border: 1px solid #fff;
